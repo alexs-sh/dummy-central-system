@@ -1,8 +1,15 @@
 [package]
 name = "dummy-central-system"
 version = "0.1.0"
+authors = ["Alexander Shirokov <ashirokov@iotecha.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+json="0.12.4"
+tungstenite = "0.10.1"
+http = "0.2.0"
+chrono = "0.4.11"
+hex = "0.4.2"
+uuid = { version = "0.8.1", features = ["v4"] }
