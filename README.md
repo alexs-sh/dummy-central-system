@@ -1,7 +1,7 @@
 # Dummy Central System
 
-Fast and dirty OCPP Central System implementation. It mostly for emulating CSRs
-receiving and self-signed certificates sending.
+Fast and dirty OCPP Central System implementation. It is mostly for emulating
+CSRs receiving and self-signed certificates sending.
 
 # Supported messages
 
